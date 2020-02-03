@@ -266,18 +266,16 @@ for i in range(len(triplist)):#loop through all trips and create shape for each 
         
         
         targetfound = False#for each new target, the global variable is defaulted to false
-        if ii == 0:
-            tripclass.shapecoord.append(trippattern[ii].info.coord)#starting point for the pattern-coordinates should be the first stop
-        
+       
         pointer = trippattern[ii]#pointer used for traversing the map tree
         
-        if ii == (len(trippattern)-1):#
-            tripclass.shapecoord.append(pointer.info.coord)#end point of the pattern is the last stop
+        tripclass.shapecoord.append(pointer.info.coord)
+        
+        if ii == (len(trippattern)-1):
             break#break out of loop at end of pattern so traverse is not called
         
         if pointer.info in outsideny:#for stops outside New York
-            tripclass.shapecoord.append(pointer.info.coord)#track maps not supported for outside NY stops
-            continue
+            continue#track maps not supported for outside NY stops
 
         target = trippattern[ii+1]#set the target to be the next stop 
         traverse(pointer.info, target.info)#traverse the map tree to determine the path to the next stop. Pass in info on the current stop and what the next stop is 
