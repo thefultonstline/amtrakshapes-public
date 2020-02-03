@@ -1,0 +1,6 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_branding_url,route_color,route_text_color,route_sort_order
+ROUTE_f11d3f3e-6002-470a-bc1a-aa37500c4c21,1,,Maple Leaf,,3,https://www.amtrak.com/ccurl/404/896/Maple-Leaf-Schedule-090316.pdf,,,,
+ROUTE_ba941773-3d4f-4d9a-9798-65c894676657,1,,Adirondack,,3,https://www.amtrak.com/ccurl/3/904/Adirondack-Schedule-011116.pdf,,,,
+ROUTE_1473499,1,,Ethan Allen Express,,3,https://www.amtrak.com/ccurl/409/864/Ethan-Allen-Express-Schedule-011116.pdf,,FFFFFF,000000,
+ROUTE_3de358c0-2102-429b-b2e2-1d02b02b4b27,1,,Lake Shore Limited,,3,https://www.amtrak.com/ccurl/596/930/Lake-Shore-Limited-Schedule-042416.pdf,,,,
+ROUTE_1473615,1,,Empire Service,,2,https://www.amtrak.com/ccurl/122/185/Empire-Service-Schedule-090316.pdf,,FFFFFF,000000,

@@ -1,0 +1,35 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding
+AK_10000,,New York Penn Station,,40.749716,-73.991780,,,0,,,0
+AK_10001,,"Yonkers, NY",,40.936162,-73.903009,,,0,,,0
+AK_10002,,"Croton-Harmon, NY",,41.190104,-73.882939,,,0,,,0
+AK_10003,,"Poughkeepsie, NY",,41.706241,-73.937903,,,0,,,0
+AK_10004,,"Rhinecliff, NY",,41.921415,-73.951678,,,0,,,0
+AK_10005,,"Hudson, NY",,42.254045,-73.798041,,,0,,,0
+AK_10006,,"Albany/Rensselaer, NY",,42.641685,-73.741372,,,0,,,0
+AK_10007,,"Schenectady, NY",,42.814465,-73.942494,,,0,,,0
+AK_10008,,"Saratoga Springs, NY",,43.082516,-73.810455,,,0,,,0
+AK_10010,,"Whitehall, NY",,43.554567,-73.403360,,,0,,,0
+AK_10012,,"Port Henry, NY",Lake George,44.042255,-73.458581,,,0,,,0
+AK_10013,,"Westport, NY",,44.187313,-73.451715,,,0,,,0
+AK_10015,,"Utica, NY",,43.104900,-75.223045,,,0,,,0
+AK_10016,,"Rome, NY",,43.199834,-75.449681,,,0,,,0
+AK_10017,,"Syracuse, NY",,43.076866,-76.170230,,,0,,,0
+AK_10018,,"Rochester, NY",,43.163683,-77.608484,,,0,,,0
+AK_10019,,"Buffalo-Depew, NY",,42.907343,-78.726847,,,0,,,0
+AK_10020,,"Buffalo-Exchange St., NY",,42.878211,-78.873374,,,0,,,0
+STOP_1473500,,"Fort Edward-Glens Falls, NY",,43.269808,-73.580171,,,0,,,0
+STOP_1473616,,"Amsterdam, NY",,42.953541,-74.219674,,,0,,,0
+STOP_1473715,,"Niagara Falls, NY",,43.113077,-79.031525,,,0,,,0
+STOP_2f3de340-9e78-4768-b778-84f737c21446,,"Toronto, ON",,43.644528,-79.380598,,,0,,,0
+STOP_300c06f8-4ec0-41d6-b965-ff8bd77330bb,,"Castleton, VT",,43.613593,-73.171402,,,0,,,0
+STOP_425876a5-bfc0-4dfb-afe8-fb4bb81696cb,,"St. Lambert, QB",,45.499298,-73.506828,,,0,,,0
+STOP_831f8468-8d0f-4ff3-a5b2-cc638c3cd898,,"Aldershot, ON",,43.312834,-79.855220,,,0,,,0
+STOP_87d4ae01-12f2-4141-aeb1-9255c53f5709,,"Oakville, ON",,43.454557,-79.682797,,,0,,,0
+STOP_936935d2-df44-405e-a10c-4c42ca844fb2,,"St. Catharines, ON",,43.147648,-79.256433,,,0,,,0
+STOP_b5919444-bd0f-408c-ad3a-01a133611581,,"Plattsburgh, NY",,44.696798,-73.446253,,,0,,,0
+STOP_b73bed07-3f56-45b8-8bf7-3689b7267379,,"Grimsby, ON",,43.196083,-79.558332,,,0,,,0
+STOP_c02c6226-bf4e-4eff-bf1f-91319a32814a,,"Rutland, VT",,43.605786,-72.982006,,,0,,,0
+STOP_c1d11fda-c520-4d43-aaad-e568d736c809,,"Ticonderoga, NY",,43.853907,-73.389616,,,0,,,0
+STOP_dc5268a3-2fcc-4138-bf9e-2f20ca83160e,,"Rouses Point, NY",,44.994954,-73.371291,,,0,,,0
+STOP_f8bdf734-ec0b-4f9a-ae8d-ba8ab42c9f23,,"Central Station-Montreal, QC",,45.516716,-73.563702,,,0,,,0
+STOP_fdb7e692-36a9-4389-b77e-7209cfa03995,,"Niagara Falls, ON",,43.108899,-79.063690,,,0,,,0
