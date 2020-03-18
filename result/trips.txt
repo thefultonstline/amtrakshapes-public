@@ -1,10 +1,6 @@
 trip_id,route_id,service_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,wheelchair_accessible,bikes_allowed
-63,ROUTE_f11d3f3e-6002-470a-bc1a-aa37500c4c21,D,,,,,shape63,0,0
-64,ROUTE_f11d3f3e-6002-470a-bc1a-aa37500c4c21,D,,,,,shape64,0,0
 49,ROUTE_3de358c0-2102-429b-b2e2-1d02b02b4b27,D,,,,,shape49,0,0
 48,ROUTE_3de358c0-2102-429b-b2e2-1d02b02b4b27,D,,,,,shape48,0,0
-68,ROUTE_ba941773-3d4f-4d9a-9798-65c894676657,D,,,,,shape68,0,0
-69,ROUTE_ba941773-3d4f-4d9a-9798-65c894676657,D,,,,,shape69,0,0
 230,ROUTE_1473615,WD,,,,,shape230,,
 232,ROUTE_1473615,WD,,,,,shape232,0,0
 241,ROUTE_1473615,D,,,,,shape241,0,0
@@ -32,9 +28,13 @@ trip_id,route_id,service_id,trip_headsign,trip_short_name,direction_id,block_id,
 283,ROUTE_1473615,D,,,,,shape283,0,0
 288,ROUTE_1473615,88cc1f69-633d-4c7e-8e1a-406710a5bab4,,,,,shape288,0,0
 284,ROUTE_1473615,D,,,,,shape284,0,0
-296,ROUTE_1473499,88cc1f69-633d-4c7e-8e1a-406710a5bab4,,,,,shape296,0,0
 292,ROUTE_1473499,296b118c-a25c-49c8-929a-afce2227635f,,,,,shape292,0,0
 290,ROUTE_1473499,WD,,,,,shape290,0,0
-291,ROUTE_1473499,c01663f4-e7cb-4b21-95f3-a0922af9bd16,,,,,shape291,,
-295,ROUTE_1473499,1472585,,,,,shape295,,
+296,ROUTE_1473499,88cc1f69-633d-4c7e-8e1a-406710a5bab4,,,,,shape296,0,0
 293,ROUTE_1473499,3cfd7c48-c1b7-4cee-b7fb-8c9ae6a34529,,,,,shape293,0,0
+295,ROUTE_1473499,1472585,,,,,shape295,,
+291,ROUTE_1473499,c01663f4-e7cb-4b21-95f3-a0922af9bd16,,,,,shape291,,
+68,ROUTE_ba941773-3d4f-4d9a-9798-65c894676657,D,,,,,shape68,0,0
+69,ROUTE_ba941773-3d4f-4d9a-9798-65c894676657,D,,,,,shape69,0,0
+64,ROUTE_f11d3f3e-6002-470a-bc1a-aa37500c4c21,D,,,,,shape64,0,0
+63,ROUTE_f11d3f3e-6002-470a-bc1a-aa37500c4c21,D,,,,,shape63,0,0

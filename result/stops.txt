@@ -31,5 +31,5 @@ STOP_b73bed07-3f56-45b8-8bf7-3689b7267379,,"Grimsby, ON",,43.196083,-79.558332,,
 STOP_c02c6226-bf4e-4eff-bf1f-91319a32814a,,"Rutland, VT",,43.605786,-72.982006,,,0,,,0
 STOP_c1d11fda-c520-4d43-aaad-e568d736c809,,"Ticonderoga, NY",,43.853907,-73.389616,,,0,,,0
 STOP_dc5268a3-2fcc-4138-bf9e-2f20ca83160e,,"Rouses Point, NY",,44.994954,-73.371291,,,0,,,0
-STOP_f8bdf734-ec0b-4f9a-ae8d-ba8ab42c9f23,,"Central Station-Montreal, QC",,45.516716,-73.563702,,,0,,,0
 STOP_fdb7e692-36a9-4389-b77e-7209cfa03995,,"Niagara Falls, ON",,43.108899,-79.063690,,,0,,,0
+STOP_f8bdf734-ec0b-4f9a-ae8d-ba8ab42c9f23,,"Central Station-Montreal, QC",,45.499600,-73.566800,,,0,,,0

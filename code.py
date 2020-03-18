@@ -269,13 +269,17 @@ for i in range(len(triplist)):#loop through all trips and create shape for each 
        
         pointer = trippattern[ii]#pointer used for traversing the map tree
         
-        tripclass.shapecoord.append(pointer.info.coord)
+        if pointer.info in outsideny:#for stops outside New York
+            tripclass.shapecoord.append(pointer.info.coord)
+            
+            if ii == (len(trippattern)-1):
+                break
+            else:
+                continue#track maps not supported for outside NY stops
         
         if ii == (len(trippattern)-1):
             break#break out of loop at end of pattern so traverse is not called
         
-        if pointer.info in outsideny:#for stops outside New York
-            continue#track maps not supported for outside NY stops
 
         target = trippattern[ii+1]#set the target to be the next stop 
         traverse(pointer.info, target.info)#traverse the map tree to determine the path to the next stop. Pass in info on the current stop and what the next stop is 
@@ -343,3 +347,23 @@ with open('trips.txt', mode='w') as newtrips:
 
     newtrips.close()
 oldtrips.close()
+
+
+#update stops_times.txt file removing shape_dist_travel causing OpenTripPlanner to reject
+oldstoptimes = open("baselineGTFS/stop_times.txt", 'r')
+with open('stop_times.txt', mode='w') as newstoptimes: 
+    for row in oldstoptimes:
+        row = row.strip()
+        rowlist = row.split(',')
+        
+        for i in range(len(rowlist)):
+            if i == 8:
+                pass
+            else:
+                newstoptimes.write(rowlist[i])
+            
+            if i != len(rowlist)-1 and i != 8:
+                newstoptimes.write(',')
+        newstoptimes.write('\n')
+    newstoptimes.close()
+oldstoptimes.close()
